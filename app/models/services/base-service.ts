@@ -118,9 +118,9 @@ export default abstract class BaseService<ServiceParamType> {
       job = await this._createJob(logger, requestUrl, this.operation.stagingLocation);
       await job.maybeAttach(db);
       if (job.attachedStatus.didAttach) {
-        const { oldId, newId } = job.attachedStatus;
-        logger.info(`This job attached to a previous job: ${oldId} is now ${newId}.`);
-        this.operation.requestId = newId;
+        const { originalId, assumedId } = job.attachedStatus;
+        logger.info(`This job attached to a previous job: ${originalId} is now ${assumedId}.`);
+        this.operation.requestId = assumedId;
       }
       await job.save(db);
       const durationMs = new Date().getTime() - startTime;

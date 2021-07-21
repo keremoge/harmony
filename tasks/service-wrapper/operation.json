@@ -1,0 +1,13 @@
+{
+  sources: [ { collection: 'C1233800302-EEDTEST', granules: [Array] } ],
+  format: { mime: 'image/png' },
+  subset: {},
+  requestId: 'b8cdc561-c6c3-4d39-ac0c-b4ffec9f3241',
+  user: 'jnorton1',
+  client: 'harmony-local',
+  accessToken: '9QEYZDn1u6xsro7PNChdjvbgwv35Sl8v:hP2HdwJYisMGFFgApTsHUKGS5VSB4wFIxVmm2OZRFlUcXg73j95wFXLxGPl7zJ03E6PqzcHa1fxGyw+yFDppb3FIePekeBdHaAodccL8mPSzoFhj+gPgyAiByCbHp4w1ZVyWTtwUHWp1oY7/syQ8HhDm74WhVf7OzSpwLCByPFqncb81kjA+pCjYv55OZ6dTZx5ANwE3UZBw1t1XTLop9zRIBkosCVqsPgcgi5bafsB+nqQTN6sVau+wjY/yWTN2MfmofdgMW5csfEwrk7wEFmks/wmQco9H2tHAHM66ZwzVG0KYekJTTUQ/yU+/v83auw+qCz208+pGBszCNDAWWkX8VHv6VJsrNH3wqb/BaC1Fo2nlyn2UDKC285oYOETb5qlRF4+4aoUWRwLO5KkTqQ==',
+  isSynchronous: true,
+  stagingLocation: 's3://local-staging-bucket/public/harmony/service-example/a39d7c9d-6b55-470d-974e-65d3a1bd6bc4/',
+  callback: 'http://host.docker.internal:3001/service/b8cdc561-c6c3-4d39-ac0c-b4ffec9f3241',
+  version: '0.10.0'
+}
